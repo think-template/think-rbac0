@@ -1,0 +1,10 @@
+{
+  "eslint.enable": true,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 90,
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true
+}
