@@ -2751,6 +2751,10 @@ lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "http://registry.npm.qiwoo.org/lodash.isequal/download/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+
 lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
@@ -2979,7 +2983,7 @@ ms@^0.7.1:
 
 ms@^1.0.0:
   version "1.0.0"
-  resolved "http://registry.npm.qiwoo.org/ms/download/ms-1.0.0.tgz#59adcd22edc543f7b5381862d31387b1f4bc9473"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-1.0.0.tgz#59adcd22edc543f7b5381862d31387b1f4bc9473"
 
 ms@^2.0.0:
   version "2.1.1"
@@ -4403,10 +4407,10 @@ think-cluster@^1.0.0:
     think-helper "^1.0.0"
 
 think-config@^1.0.0:
-  version "1.1.0"
-  resolved "http://registry.npm.qiwoo.org/think-config/download/think-config-1.1.0.tgz#c2089ece8bc48c8e6c1de719ae95c3322f83a6c6"
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/think-config/-/think-config-1.1.3.tgz#c579183d12d6093d528281d68c022788b50325ef"
   dependencies:
-    think-helper "^1.0.0"
+    think-helper "^1.1.3"
 
 think-controller@^1.0.1:
   version "1.0.4"
@@ -4435,7 +4439,16 @@ think-gc@^1.0.0:
     think-helper "^1.0.6"
     think-ms "^1.0.1"
 
-think-helper@^1.0.0, think-helper@^1.0.22, think-helper@^1.0.5, think-helper@^1.0.6, think-helper@latest:
+think-helper@^1.0.0, think-helper@^1.0.22, think-helper@^1.0.5, think-helper@^1.0.6, think-helper@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/think-helper/-/think-helper-1.1.3.tgz#6d200b5ad6d190da21bc1fa22958f0adca6cf67a"
+  dependencies:
+    core-util-is "^1.0.2"
+    lodash.merge "^4.6.2"
+    ms "^1.0.0"
+    uuid "^3.0.1"
+
+think-helper@latest:
   version "1.1.1"
   resolved "http://registry.npm.qiwoo.org/think-helper/download/think-helper-1.1.1.tgz#980dfce24c11a39c597fcd833a29ff3d6f4552a2"
   dependencies:
@@ -4834,7 +4847,11 @@ uuid@^2.0.1:
   version "2.0.3"
   resolved "http://registry.npm.qiwoo.org/uuid/download/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
-uuid@^3.0.1, uuid@^3.1.0:
+uuid@^3.0.1:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+
+uuid@^3.1.0:
   version "3.3.2"
   resolved "http://registry.npm.qiwoo.org/uuid/download/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
